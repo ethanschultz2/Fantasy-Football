@@ -1,0 +1,173 @@
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 100px;
+  margin-top: 20px;
+}
+
+.images-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+  position: relative;
+
+  .teams-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 2;
+
+  }
+  .row{
+    margin-top: 10px;
+  }
+
+  .content {
+    position: absolute;
+    margin-top: 10px;
+    color: #ffffff;
+    z-index: 3;
+    padding: 10px 30px;
+    bottom: -25px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: linear-gradient(
+                    180deg,
+                    rgba(0, 0, 0, 0.2) 0,
+                    rgba(0, 0, 0, 1)
+    );
+  }
+  .title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .btn {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0 23px;
+    height: 40px;
+    line-height: 34px;
+    border: 2px solid #FB4F14;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fff;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    transform: translateY(-3px);
+    background: #FB4F14;
+  }
+  &:after {
+    content: "";
+    background: linear-gradient(180deg, #FB4F14, #000);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    opacity: 0;
+  }
+  &:hover:after {
+    opacity: 0.85;
+  }
+
+  &:hover .content {
+    bottom: 0;
+    background: transparent;
+  }
+}
+
+.search-bar{
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.search-bar input{
+  width: 100%;
+  padding: 10px 20px;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  padding-left: 35px;
+}
+.search-bar input::placeholder{
+  color: #FB4F14;;
+  opacity: 1;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #FB4F14;
+}
+
+.search-bar .search-icon {
+  position: absolute;
+  left: 10px; /* Position the icon inside the input field */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #FB4F14; /* Icon color */
+}
+/* Media Query for smaller screens (tablets, phones) */
+@media screen and (max-width: 1024px) {
+  .images-box {
+    width: 180px; /* Slightly smaller width for tablets */
+  }
+
+  .images-container {
+    gap: 15px;
+  }
+}
+.row{
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .images-box {
+    width: 130px; /* Adjust width for smaller screens like tablets in portrait mode */
+  }
+
+  .search-bar input {
+    width: 200px; /* Adjust the search bar input width */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .images-box {
+    width: 50px; /* Smaller width for mobile screens */
+  }
+
+  .images-container {
+    gap: 10px; /* Reduce gap for smaller screens */
+  }
+
+  .search-bar input {
+    width: 160px; /* Adjust search bar input width for smaller mobile screens */
+  }
+}

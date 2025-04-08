@@ -1,0 +1,29 @@
+{
+  "positions": [
+    {
+      "cover": "/positions/Quarterback.jpg",
+      "title": "Quarterback",
+      "search": "QB"
+    },
+    {
+      "cover": "/positions/RunningBack.jpg",
+      "title": "RunningBack",
+      "search": "RB"
+    },
+    {
+      "cover": "/positions/FullBack.jpg",
+      "title": "FullBack",
+      "search": "FB"
+    },
+    {
+      "cover": "/positions/TightEnd.jpg",
+      "title": "TightEnd",
+      "search": "TE"
+    },
+    {
+      "cover": "/positions/WideReceiver.jpg",
+      "title": "WideReceiver",
+      "search": "WR"
+    }
+  ]
+}

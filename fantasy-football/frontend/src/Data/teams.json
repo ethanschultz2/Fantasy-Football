@@ -1,0 +1,132 @@
+{
+  "teams": [
+    {
+      "cover": "/teams/Cardinals.gif",
+      "title": "Cardinals"
+    },
+    {
+      "cover": "/teams/Ravens.gif",
+      "title": "Ravens"
+    },
+    {
+      "cover": "/teams/Falcons.gif",
+      "title": "Falcons"
+    },
+    {
+      "cover": "/teams/Bills.gif",
+      "title": "Bills"
+    },
+    {
+      "cover": "/teams/Panthers.gif",
+      "title": "Panthers"
+    },
+    {
+      "cover": "/teams/Bengals.gif",
+      "title": "Bengals"
+    },
+    {
+      "cover": "/teams/Bears.gif",
+      "title": "Bears"
+    },
+    {
+      "cover": "/teams/Browns.gif",
+      "title": "Browns"
+    },
+    {
+      "cover": "/teams/Cowboys.gif",
+      "title": "Cowboys"
+    },
+    {
+      "cover": "/teams/Broncos.gif",
+      "title": "Broncos"
+    },
+    {
+      "cover": "/teams/Lions.gif",
+      "title": "Lions"
+    },
+    {
+      "cover": "/teams/Texans.gif",
+      "title": "Texans"
+    },
+    {
+      "cover": "/teams/Packers.gif",
+      "title": "Packers"
+    },
+    {
+      "cover": "/teams/Colts.gif",
+      "title": "Colts"
+    },
+    {
+      "cover": "/teams/Rams.gif",
+      "title": "Rams"
+    },
+    {
+      "cover": "/teams/Jaguars.gif",
+      "title": "Jaguars"
+    },
+    {
+      "cover": "/teams/Vikings.gif",
+      "title": "Vikings"
+    },
+    {
+      "cover": "/teams/Chiefs.gif",
+      "title": "Chiefs"
+    },
+    {
+      "cover": "/teams/Saints.gif",
+      "title": "Saints"
+    },
+    {
+      "cover": "/teams/Raiders.gif",
+      "title": "Raiders"
+    },
+    {
+      "cover": "/teams/Giants.gif",
+      "title": "Giants"
+    },
+    {
+      "cover": "/teams/Chargers.gif",
+      "title": "Chargers"
+    },
+    {
+      "cover": "/teams/Eagles.gif",
+      "title": "Eagles"
+    },
+    {
+      "cover": "/teams/Dolphins.gif",
+      "title": "Dolphins"
+    },
+    {
+      "cover": "/teams/49ers.gif",
+      "title": "49ers"
+    },
+    {
+      "cover": "/teams/Patriots.gif",
+      "title": "Patriots"
+    },
+    {
+      "cover": "/teams/Seahawks.gif",
+      "title": "Seahawks"
+    },
+    {
+      "cover": "/teams/Jets.gif",
+      "title": "Jets"
+    },
+    {
+      "cover": "/teams/Buccaneers.gif",
+      "title": "Buccaneers"
+    },
+    {
+      "cover": "/teams/Steelers.gif",
+      "title": "Steelers"
+    },
+    {
+      "cover": "/teams/Commanders.gif",
+      "title": "Commanders"
+    },
+    {
+      "cover": "/teams/Titans.gif",
+      "title": "Titans"
+    }
+  ]
+}
